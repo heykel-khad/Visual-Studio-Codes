@@ -1,0 +1,10 @@
+stages:
+  - test
+
+test-job:
+  stage: test
+  image: python:3.10  # Use an appropriate image for your project
+  script:
+    - echo "Running tests..."
+    - pip install pytest  # Install test framework (adjust as needed)
+    - pytest  # Run tests (adjust if you use a different test tool)

@@ -15,3 +15,4 @@ if __name__ == "__main__":
     print("Here's your motivational quote for the day:")
     print(get_random_quote())
     print("Hi bro wassup")
+    print("Hi bro wassup!!!!")
